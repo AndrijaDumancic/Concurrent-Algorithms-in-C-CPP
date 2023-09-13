@@ -1,4 +1,5 @@
 /*
+ Problem of cannibals and missionaries
  In this simulation:
 
 There is a river with a boat that can carry passengers between two banks.
