@@ -1,3 +1,10 @@
+/*
+This C program implements Dekker's algorithm, a classic mutual exclusion algorithm that ensures only one process enters a critical section at a time. 
+It uses shared memory and forked processes to demonstrate this concept.
+Processes take turns entering the critical section based on a set of flags and variables. 
+After execution, the program prints the final value of a shared integer variable 'a' and cleans up the shared memory segment.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
